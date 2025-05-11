@@ -62,7 +62,7 @@ SELECT
         SCH.starttime, 
         R.roomname;
 EOD;
-$report['output_filename'] = 'pocketprogram.csv';
+$report['output_filename'] = 'pocketprogram2.csv';
 $report['column_headings'] = 'sessionid,day,time,duration,room,tags,type,title,description,participants';
 $report['map_functions'][7] = function($inp) : string {
     return(trim($inp));
